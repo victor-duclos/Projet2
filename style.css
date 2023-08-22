@@ -72,17 +72,15 @@ a {text-decoration:none;color:black}
 }
 }
 /****** Hebergements ***********/
+@media screen and (min-width:320px)and (max-width:575.98px){
+.hebergements{width:100%;padding:20px;box-sizing: border-box;}
 
+}
 @media screen and (min-width:576px){
 .hebergements {
     width: 65%;
 }
 .hebergements h3{position:relative;top:30px}
-}
-
-@media screen and (min-width:320px)and (max-width:575.98px){
-.hebergements{width:100%;padding:20px;box-sizing: border-box;}
-
 }
 
 .hebergementstitre{display:flex;
@@ -102,7 +100,6 @@ a {text-decoration:none;color:black}
 .boxtitre{display:flex;flex-direction:column;
             
             }
-
 
 .box img{border-radius:20px 20px 0px 0px;
         width:100%;
@@ -249,16 +246,13 @@ input[type=submit]{display:none}
         justify-content:flex-end;
          gap: 20px;
         }
-.menu {
-
-    
+.menu {    
     display: flex;
     justify-content: center;
     align-items: center;
     height:40px;
     text-decoration:none;
-    color:black
-    
+    color:black  
   }
 
 .menu:hover{border-top:3px #0065fc solid;
@@ -288,9 +282,7 @@ main{margin-top:20px}
 }
   form{display:flex;
     justify-content:flex-start;
-    height:40px;
-    
-       
+    height:40px;       
 }
   
   label{display:flex;
@@ -303,19 +295,14 @@ main{margin-top:20px}
 
 .fa-location-dot{ color:black;
                     
-                    margin:auto
-                   
+                    margin:auto} 
 
-
-                    }
 .search{
-        
-    border-radius:0px 0px 0px 0px;
+         border-radius:0px 0px 0px 0px;
 border:var(--main-bg-color) 1px solid;
 margin:0px;
 font-weight:bold;
 font-size:large
-
 }
 
 #placeholder{color:black;
@@ -335,22 +322,11 @@ border:none;}
 
 
 /******Filtres*********/
-
-.economique{display:flex;
-            border:solid #d9d9d9 3px;
-            justify-content:center;
-            align-items:center;
-            padding-right:30px;
-            border-radius:40px 40px 40px 40px;
-            height:fit-content;
-            font-size:17px
-            
-            }
-           
+          
             @media screen and (min-width:576px){
 
 
-                .filtres{display:flex;
+.filtres{display:flex;
         justify-content:flex-start;
         gap:10px;
         margin-top:20px;
@@ -358,37 +334,28 @@ border:none;}
         align-items:center;width:100%;
         }
 
-                .f1{display:flex;border:solid #d9d9d9 3px;justify-content:center;align-items:center;padding-right:30px;border-radius:40px;height:fit-content;}
+.f1{display:flex;border:solid #d9d9d9 3px;justify-content:center;align-items:center;padding-right:30px;border-radius:40px;height:fit-content;}
 .filtrecadre{display:flex;width:100%;flex-direction:flex-start;gap:20px;justify-content:flex-start;flex-wrap:wrap}
-
 
 .fa-money-bill-wave{display:flex;
                     padding-right:10px;
                     padding-left:30px}
-
-
 
 .fa-person{display:flex;
             padding-left:30px;
             padding-right:10px;
             }
 
-
-
 .fa-heart{display:flex;
             padding-left:30px;
             padding-right:10px}
-
-
 
 .fa-fire{display:flex;
         padding-right:10px;
         padding-left:30px}
 }
 
-
 .f1:hover{background-color:#DEEBFF}
-
 
 .fa-info{display:flex;
     border:solid #d9d9d9 2px;
@@ -407,9 +374,8 @@ padding:10px}
 .a1{width:100%;display:flex;flex-direction:column;box-sizing: border-box;}
 }
 @media screen and (min-width:320px)and (max-width:575.98px){
-    .a1{width:100%;display:flex;flex-direction:column;box-sizing: border-box;padding:20px}   
+.a1{width:100%;display:flex;flex-direction:column;box-sizing: border-box;padding:20px}   
 }
-
 
 .a2{display:flex}
 
