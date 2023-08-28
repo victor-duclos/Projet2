@@ -207,13 +207,7 @@ input[type=submit]{display:none}
     
 
 }
-@media screen and (min-width:576px) {button[type=submit]{display:none}
-                                .a3{gap:2%}
 
-
-
-
-}
 /*****Image media querie******/
 @media screen and (min-width:991.99px){.a4 img{height: 340px;}}
 
@@ -277,7 +271,11 @@ main{margin-top:20px}
     .media-form{padding-left:10px}
     .media-search{display:flex;justify-content:center;width:100%}
 }
-  form{display:flex;
+@media screen and (min-width:576px) {button[type=submit]{display:none}
+                                .a3{gap:2%}
+}
+
+form{display:flex;
     justify-content:flex-start;
     height:40px;       
 }
