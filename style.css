@@ -62,7 +62,7 @@ a {text-decoration:none;color:black}
     display: flex;
     justify-content: space-between;
 }
-@media screen and (min-width:576px){
+@media screen and (min-width:768px){
 .hebergementsAndPopulaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
@@ -72,11 +72,11 @@ a {text-decoration:none;color:black}
 }
 }
 /****** Hebergements ***********/
-@media screen and (min-width:320px)and (max-width:575.98px){
+@media screen and (min-width:320px)and (max-width:768px){
 .hebergements{width:100%;padding:20px;box-sizing: border-box;}
 
 }
-@media screen and (min-width:576px){
+@media screen and (min-width:768px){
 .hebergements {
     width: 65%;padding:20px
 }
@@ -118,13 +118,13 @@ a {text-decoration:none;color:black}
 
 
 /****** Populaires ***********/
-@media screen and (min-width:576px){
+@media screen and (min-width:768px){
 .populaires {
     width: 31%;
 }
 }
 
-@media screen and (min-width:320px)and (max-width:575.98px){
+@media screen and (min-width:320px)and (max-width:768px){
     .populaires{width:100%;background-color:var(--main-bg-color);padding:20px;box-sizing: border-box;}
 }
 
@@ -169,7 +169,7 @@ a {text-decoration:none;color:black}
 }
 
 /****** Media queries ***********/
-@media screen and (min-width:575.99px) and (max-width: 991.98px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
     .hebergementsAndPopulaires {
         flex-direction: column;gap:20px;width:100%
     }
@@ -183,10 +183,10 @@ a {text-decoration:none;color:black}
     
 }
 
-@media screen and (min-width:320px) and (max-width: 575.98px) {.fa-magnifying-glass{color:white}
+@media screen and (min-width:320px) and (max-width: 768px) {.fa-magnifying-glass{color:white}
 input[type=submit]{display:none}
 .f1{display:flex;border:solid #d9d9d9 3px;align-items:center;padding-right:0px;border-radius:40px;height:fit-content;width:40%;justify-content:center}
-.filtres{flex-direction:column;align-items:none;}
+.filtres{flex-direction:column;align-items:unset;}
 .filtrecadre{display:flex;width:100%;gap:10px;justify-content:center;flex-wrap:wrap}
 .hebergementsAndPopulaires {
     flex-direction: column-reverse;gap:20px}
@@ -217,7 +217,7 @@ input[type=submit]{display:none}
 
 
 /*****header********/
-@media screen and (min-width:320px) and (max-width: 575.98px){
+@media screen and (min-width:320px) and (max-width: 768px){
     .media-header{display:flex;flex-direction:column-reverse;align-items:center;margin-top:20px;width:100%}
     .header{display:flex;justify-content:space-around;width:100%;margin-top:10px}
     .menu {display: flex;
@@ -232,7 +232,7 @@ input[type=submit]{display:none}
             color:#0065fc}
 }
 
-@media screen and (min-width:575.99px){
+@media screen and (min-width:768px){
 .header {display:flex;
         justify-content:flex-end;
          gap: 20px;
@@ -254,24 +254,18 @@ color:#0065fc}
 
 
 main{margin-top:20px}
+.logo{width:80px;
+    height:25px;
+    object-fit:cover}
 
-.tiledbackground {
-    background-image:url(./images/logo.png);
-    background-size: 60px;
-    background-position:top;
-    background-repeat:no-repeat;
-    width: 80px;
-    height:23px;
-    
-  }
 
 
 /******* NAV *******/
-@media screen and (min-width:320px) and (max-width:575.99px){
+@media screen and (min-width:320px) and (max-width:768px){
     .media-form{padding-left:10px}
     .media-search{display:flex;justify-content:center;width:100%}
 }
-@media screen and (min-width:576px) {button[type=submit]{display:none}
+@media screen and (min-width:768px) {button[type=submit]{display:none}
                                 .a3{gap:2%}
 }
 
@@ -318,7 +312,7 @@ border:none;}
 
 /******Filtres*********/
           
-            @media screen and (min-width:576px){
+            @media screen and (min-width:768px){
 
 
 .filtres{display:flex;
@@ -326,11 +320,12 @@ border:none;}
         gap:10px;
         margin-top:20px;
         margin-bottom:20px;
-        align-items:center;width:100%;
+        align-items:center;
+        width:100%;
         }
 
 .f1{display:flex;border:solid #d9d9d9 3px;justify-content:center;align-items:center;padding-right:30px;border-radius:40px;height:fit-content;}
-.filtrecadre{display:flex;width:100%;flex-direction:flex-start;gap:20px;justify-content:flex-start;flex-wrap:wrap}
+.filtrecadre{display:flex;width:100%;gap:20px;justify-content:flex-start;flex-wrap:wrap;}
 
 .fa-money-bill-wave{display:flex;
                     padding-right:10px;
@@ -365,10 +360,10 @@ padding:10px}
 /*** Activités***/
 
 
-@media screen and (min-width:575.98px){
+@media screen and (min-width:768px){
 .a1{width:100%;display:flex;flex-direction:column;box-sizing: border-box;}
 }
-@media screen and (min-width:320px)and (max-width:575.98px){
+@media screen and (min-width:320px)and (max-width:768px){
 .a1{width:100%;display:flex;flex-direction:column;box-sizing: border-box;padding:20px}   
 }
 
