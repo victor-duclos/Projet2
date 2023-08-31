@@ -157,7 +157,7 @@ a {text-decoration:none;color:black}
 
 .populairesCards .cardContent {
     width: 63%;
-    padding-left: 15px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
